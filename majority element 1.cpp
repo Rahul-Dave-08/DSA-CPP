@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+//element occuring > n/2 times (borey-moore voting algo.)
+
+int main() {
+    int arr[7] = {2, 2, 1, 1, 1, 2, 2};
+    int count = 0, candidate = 0;
+
+    for(int i = 0;i<7;i++){
+        if(count == 0){
+            candidate = arr[i];
+            count = 1;
+        }
+        else if(candidate = arr[i]){
+            count++;
+        }
+        else{
+            count--;
+        }
+    }
+
+    cout << candidate;
+}
