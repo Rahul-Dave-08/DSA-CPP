@@ -4,7 +4,7 @@
 using namespace std;
 
 // Q. Print all binary strings of size n without any consecutive 1s.
-// #RECURSION
+// RECURSION
 void BinaryStrings(string ans, int n)
 {
     if (ans.length() == n)
