@@ -20,5 +20,5 @@ int main() {
         }
     }
 
-    cout << candidate;
+    cout << "element greater than n/2 is " << candidate;
 }
