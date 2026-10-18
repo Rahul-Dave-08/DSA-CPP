@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Recursion
 int FriendsPairing(int n)
 {
     if (n == 1 || n == 2)
