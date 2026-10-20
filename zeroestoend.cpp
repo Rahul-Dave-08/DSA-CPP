@@ -2,7 +2,7 @@
 #include <climits>
 using namespace std;
 
-void zeroestoend(int arr[], int n)
+void Zeroestoend(int arr[], int n)
 {
     int i = 0; 
     int j = 0; 
@@ -40,6 +40,6 @@ void printarray(int arr[], int size)
 int main()
 {
     int num[5] = {0, 2, 0, 6, 1};
-    zeroestoend(num, 5);
+    Zeroestoend(num, 5);
     printarray(num, 5);
 }
