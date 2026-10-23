@@ -44,7 +44,7 @@ void mergesort(int arr[], int s, int e)
     mergesort(arr, s, mid);
     // right
     mergesort(arr, mid + 1, e);
-
+    //merge
     merge(arr, s, e, mid);
 }
 
