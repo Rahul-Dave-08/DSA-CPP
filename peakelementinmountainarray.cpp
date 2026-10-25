@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+// T(c) = O(log n)
 int peakelementindex(int arr[], int n)
 {
     int ans = -1;
