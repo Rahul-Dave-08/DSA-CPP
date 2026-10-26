@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//element occuring > n/2 times (borey-moore voting algo.)
+//element occuring > n/2 times (Borey-Moore Voting Algo.)
 
 int main() {
     int arr[7] = {2, 2, 1, 1, 1, 2, 2};
